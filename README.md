@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at [http://localhost:5000](http://localhost:5000).
+The application will be available at https://portfolio-git-main-akshayrkambles-projects.vercel.app/#
 
 ## Building for Production
 
@@ -52,4 +52,3 @@ npm start
 
 ## License
 
-MIT
