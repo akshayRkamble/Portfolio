@@ -33,7 +33,7 @@ export default function HeroSection() {
               </a>
             </div>
             <div className="flex space-x-5 mt-8">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
                 <FaGithub className="text-2xl" />
               </a>
               <a href="https://www.linkedin.com/in/akshay-kamble-sd/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
