@@ -3,7 +3,7 @@ import { useToast } from "@/hooks/use-toast";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -171,22 +171,6 @@ export default function ContactSection() {
                       className="text-gray-800 font-medium hover:text-primary"
                     >
                       www.linkedin.com/in/akshay-kamble-sd/
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
-                    <FaGithub className="text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-gray-500 text-sm">GitHub</p>
-                    <a 
-                      href="https://github.com" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-800 font-medium hover:text-primary"
-                    >
-                      github.com/akshaykamble
                     </a>
                   </div>
                 </div>

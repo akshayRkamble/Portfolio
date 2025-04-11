@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { Link } from "wouter";
 
 export default function Footer() {
@@ -20,14 +20,6 @@ export default function Footer() {
             <Link href="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link>
           </div>
           <div className="flex space-x-4">
-            <a 
-              href="https://github.com" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors"
-            >
-              <FaGithub />
-            </a>
             <a 
               href="https://www.linkedin.com/in/akshay-kamble-sd/" 
               target="_blank" 

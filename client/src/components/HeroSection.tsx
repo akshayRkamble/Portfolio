@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
@@ -33,9 +33,6 @@ export default function HeroSection() {
               </a>
             </div>
             <div className="flex space-x-5 mt-8">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
-                <FaGithub className="text-2xl" />
-              </a>
               <a href="https://www.linkedin.com/in/akshay-kamble-sd/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary transition-colors">
                 <FaLinkedin className="text-2xl" />
               </a>
