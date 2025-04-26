@@ -1,4 +1,4 @@
-import { FaUserFriends, FaSeedling, FaCheckCircle, FaArrowRight, FaCode, FaBlog, FaBrain, FaGithub } from "react-icons/fa";
+import { FaUserFriends, FaSeedling, FaCheckCircle, FaArrowRight, FaCode, FaBlog, FaBrain } from "react-icons/fa";
 
 export default function ProjectsSection() {
   return (
@@ -9,7 +9,6 @@ export default function ProjectsSection() {
           <div className="h-1 w-20 bg-primary mx-auto rounded-full"></div>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Here are some of the projects I've worked on, showcasing my skills and problem-solving abilities.
-            View more projects on my <a href="https://github.com/akshayRkamble" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub <FaGithub className="inline text-sm" /></a>.
           </p>
         </div>
         
@@ -48,14 +47,9 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-purple-50 text-purple-600 rounded-full text-xs font-medium">PostgreSQL</span>
                 <span className="px-3 py-1 bg-purple-50 text-purple-600 rounded-full text-xs font-medium">Tailwind CSS</span>
               </div>
-              <div className="flex space-x-4">
-                <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
-                  View Project <FaArrowRight className="ml-1 text-sm" />
-                </a>
-                <a href="https://github.com/akshayRkamble/PersonalPortfolio" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
-                  GitHub <FaGithub className="ml-1 text-sm" />
-                </a>
-              </div>
+              <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
+                View Project <FaArrowRight className="ml-1 text-sm" />
+              </a>
             </div>
           </div>
 
@@ -93,14 +87,9 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-teal-50 text-teal-600 rounded-full text-xs font-medium">NLP</span>
                 <span className="px-3 py-1 bg-teal-50 text-teal-600 rounded-full text-xs font-medium">GANs</span>
               </div>
-              <div className="flex space-x-4">
-                <a href="https://health-journal-myapp.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
-                  View Project <FaArrowRight className="ml-1 text-sm" />
-                </a>
-                <a href="https://github.com/akshayRkamble/health-care" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
-                  GitHub <FaGithub className="ml-1 text-sm" />
-                </a>
-              </div>
+              <a href="https://health-journal-myapp.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
+                View Project <FaArrowRight className="ml-1 text-sm" />
+              </a>
             </div>
           </div>
 
@@ -134,14 +123,9 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-medium">OpenCV</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-medium">Web Development</span>
               </div>
-              <div className="flex space-x-4">
-                <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
-                  View Project <FaArrowRight className="ml-1 text-sm" />
-                </a>
-                <a href="https://github.com/akshayRkamble/project" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
-                  GitHub <FaGithub className="ml-1 text-sm" />
-                </a>
-              </div>
+              <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
+                View Project <FaArrowRight className="ml-1 text-sm" />
+              </a>
             </div>
           </div>
           
@@ -175,14 +159,9 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-xs font-medium">Machine Learning</span>
                 <span className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-xs font-medium">Agriculture</span>
               </div>
-              <div className="flex space-x-4">
-                <a href="https://crop-recomendation-farm.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
-                  View Project <FaArrowRight className="ml-1 text-sm" />
-                </a>
-                <a href="https://github.com/akshayRkamble/task" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
-                  GitHub <FaGithub className="ml-1 text-sm" />
-                </a>
-              </div>
+              <a href="https://crop-recomendation-farm.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
+                View Project <FaArrowRight className="ml-1 text-sm" />
+              </a>
             </div>
           </div>
         </div>
