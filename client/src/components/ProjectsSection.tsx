@@ -1,4 +1,4 @@
-import { FaUserFriends, FaSeedling, FaCheckCircle, FaArrowRight, FaCode, FaBlog } from "react-icons/fa";
+import { FaUserFriends, FaSeedling, FaCheckCircle, FaArrowRight, FaCode, FaBlog, FaBrain, FaGithub } from "react-icons/fa";
 
 export default function ProjectsSection() {
   return (
@@ -9,6 +9,7 @@ export default function ProjectsSection() {
           <div className="h-1 w-20 bg-primary mx-auto rounded-full"></div>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             Here are some of the projects I've worked on, showcasing my skills and problem-solving abilities.
+            View more projects on my <a href="https://github.com/akshayRkamble" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub <FaGithub className="inline text-sm" /></a>.
           </p>
         </div>
         
@@ -47,9 +48,59 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-purple-50 text-purple-600 rounded-full text-xs font-medium">PostgreSQL</span>
                 <span className="px-3 py-1 bg-purple-50 text-purple-600 rounded-full text-xs font-medium">Tailwind CSS</span>
               </div>
-              <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
-                View Project <FaArrowRight className="ml-1 text-sm" />
-              </a>
+              <div className="flex space-x-4">
+                <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
+                  View Project <FaArrowRight className="ml-1 text-sm" />
+                </a>
+                <a href="https://github.com/akshayRkamble/PersonalPortfolio" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
+                  GitHub <FaGithub className="ml-1 text-sm" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Mental Health Assessment Project */}
+          <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 transition-transform hover:-translate-y-1 hover:shadow-lg">
+            <div className="h-56 bg-gradient-to-r from-cyan-400 to-teal-500 flex items-center justify-center">
+              <FaBrain className="text-white text-5xl" />
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">Mental Wellness Companion</h3>
+              <p className="text-gray-600 mb-4">
+                A comprehensive platform for mental health assessment and a smart journaling app that uses NLP to improve mental well-being.
+              </p>
+              <ul className="space-y-2 mb-4">
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Daily journaling with NLP analysis of user entries</span>
+                </li>
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Sentiment-aware GANs generating empathetic responses</span>
+                </li>
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Motivational and calming content tailored to emotional state</span>
+                </li>
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Connection to mental health professionals when needed</span>
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-teal-50 text-teal-600 rounded-full text-xs font-medium">Python</span>
+                <span className="px-3 py-1 bg-teal-50 text-teal-600 rounded-full text-xs font-medium">Streamlit</span>
+                <span className="px-3 py-1 bg-teal-50 text-teal-600 rounded-full text-xs font-medium">NLP</span>
+                <span className="px-3 py-1 bg-teal-50 text-teal-600 rounded-full text-xs font-medium">GANs</span>
+              </div>
+              <div className="flex space-x-4">
+                <a href="https://health-journal-myapp.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
+                  View Project <FaArrowRight className="ml-1 text-sm" />
+                </a>
+                <a href="https://github.com/akshayRkamble/health-care" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
+                  GitHub <FaGithub className="ml-1 text-sm" />
+                </a>
+              </div>
             </div>
           </div>
 
@@ -83,9 +134,14 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-medium">OpenCV</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs font-medium">Web Development</span>
               </div>
-              <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
-                View Project <FaArrowRight className="ml-1 text-sm" />
-              </a>
+              <div className="flex space-x-4">
+                <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
+                  View Project <FaArrowRight className="ml-1 text-sm" />
+                </a>
+                <a href="https://github.com/akshayRkamble/project" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
+                  GitHub <FaGithub className="ml-1 text-sm" />
+                </a>
+              </div>
             </div>
           </div>
           
@@ -119,9 +175,14 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-xs font-medium">Machine Learning</span>
                 <span className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-xs font-medium">Agriculture</span>
               </div>
-              <a href="#" className="text-primary font-medium hover:underline inline-flex items-center">
-                View Project <FaArrowRight className="ml-1 text-sm" />
-              </a>
+              <div className="flex space-x-4">
+                <a href="https://crop-recomendation-farm.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
+                  View Project <FaArrowRight className="ml-1 text-sm" />
+                </a>
+                <a href="https://github.com/akshayRkamble/task" target="_blank" rel="noopener noreferrer" className="text-gray-700 font-medium hover:underline inline-flex items-center">
+                  GitHub <FaGithub className="ml-1 text-sm" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
