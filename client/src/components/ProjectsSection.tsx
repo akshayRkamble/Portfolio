@@ -1,4 +1,4 @@
-import { FaUserFriends, FaSeedling, FaCheckCircle, FaArrowRight, FaCode, FaBlog, FaBrain } from "react-icons/fa";
+import { FaUserFriends, FaSeedling, FaCheckCircle, FaArrowRight, FaCode, FaBlog, FaBrain, FaDesktop } from "react-icons/fa";
 
 export default function ProjectsSection() {
   return (
@@ -160,6 +160,46 @@ export default function ProjectsSection() {
                 <span className="px-3 py-1 bg-green-50 text-green-600 rounded-full text-xs font-medium">Agriculture</span>
               </div>
               <a href="https://crop-recomendation-farm.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
+                View Project <FaArrowRight className="ml-1 text-sm" />
+              </a>
+            </div>
+          </div>
+
+          {/* System Monitor Project */}
+          <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 transition-transform hover:-translate-y-1 hover:shadow-lg">
+            <div className="h-56 bg-gradient-to-r from-amber-400 to-orange-500 flex items-center justify-center">
+              <FaDesktop className="text-white text-5xl" />
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">System Monitor and Process Manager</h3>
+              <p className="text-gray-600 mb-4">
+                A cross-platform system resource and process manager that runs on both Windows and Linux, providing real-time monitoring and management capabilities.
+              </p>
+              <ul className="space-y-2 mb-4">
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Real-time monitoring of CPU, RAM, disk usage and network stats</span>
+                </li>
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Process management including listing and terminating processes</span>
+                </li>
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Sorting processes by resource usage for performance analysis</span>
+                </li>
+                <li className="flex items-start">
+                  <FaCheckCircle className="text-green-500 mt-1 mr-2" />
+                  <span className="text-gray-700">Export functionality for usage logs in CSV/JSON formats</span>
+                </li>
+              </ul>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-amber-50 text-amber-600 rounded-full text-xs font-medium">Python</span>
+                <span className="px-3 py-1 bg-amber-50 text-amber-600 rounded-full text-xs font-medium">Streamlit</span>
+                <span className="px-3 py-1 bg-amber-50 text-amber-600 rounded-full text-xs font-medium">System Monitoring</span>
+                <span className="px-3 py-1 bg-amber-50 text-amber-600 rounded-full text-xs font-medium">Cross-Platform</span>
+              </div>
+              <a href="https://system-monitor-ak.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center">
                 View Project <FaArrowRight className="ml-1 text-sm" />
               </a>
             </div>
